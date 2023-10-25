@@ -1,0 +1,12 @@
+spring:
+ autoconfigure:
+   exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration
+ cloud:
+   gateway:
+     routes:
+      # TODO: Lengkapi route untuk gateway
+
+ application:
+   name: API-GATEWAY
+
+
